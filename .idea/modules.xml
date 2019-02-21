@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ip-mentoring-space.iml" filepath="$PROJECT_DIR$/.idea/modules/ip-mentoring-space.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ip-mentoring-space-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ip-mentoring-space-build.iml" />
     </modules>
   </component>
 </project>

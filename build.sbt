@@ -10,7 +10,7 @@ lazy val root = (project in file(".")).
       scalaVersion := "2.12.8"
     )),
     name := "ip-mentoring-space",
-    addCompilerPlugin(dependency = "org.spire-math" %% "kind-projector" % "$kindProjector_version$"),
+    addCompilerPlugin(dependency = "org.spire-math" %% "kind-projector" % "0.9.9"),
     scalacOptions --= Seq("-Ywarn-unused:imports", "-Xfatal-warnings"),
     libraryDependencies ++= Seq(
       Dependencies.catsCore,

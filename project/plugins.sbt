@@ -18,7 +18,7 @@
 // and prints additional info for implicit resolution errors.
 // https://github.com/tek/splain
 //
-addSbtPlugin(dependency = "io.get-coursier"           % "sbt-coursier" % "1.1.0-M11-1")
+addSbtPlugin(dependency = "io.get-coursier"           % "sbt-coursier" % "1.0.3")
 addSbtPlugin(dependency = "com.timushev.sbt"          % "sbt-updates"  % "0.4.0")
 addSbtPlugin(dependency = "io.github.davidgregory084" % "sbt-tpolecat" % "0.1.5")
 addSbtPlugin(dependency = "ch.epfl.scala"             % "sbt-scalafix" % "0.9.4")

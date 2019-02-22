@@ -43,3 +43,15 @@ git clone git@github.com:mmynsted/mmynsted-ip-mentoring-space.git
    something that looks like this.
    
    ![sbt test task](./img/test-task.png)
+   
+7. _OPTIONAL_: You may wish to create an upstream remote to make it easy to get updates.
+
+```bash
+git remote add upstream git@github.com:inner-product/ip-mentoring-space.git
+```
+
+You can fetch the changes with:
+
+```bash
+get fetch upstream
+```

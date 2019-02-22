@@ -12,7 +12,7 @@ Should also have plugins (scala, sbt, rainbow brackets, and scalafmt)
    Example: My private repository would be named `mmynsted-ip-mentoring-space`.
    Notice the url for this new private repo where it says quick setup.
 
-2. Create a bare repo and push it to the new.
+2. Create a local bare repo and push it to the new.
 
 ```bash
 git clone --bare git@github.com:inner-product/ip-mentoring-space.git 

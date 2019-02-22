@@ -241,3 +241,9 @@ tags
 # Ignore all local history of files
 
 # End of https://www.gitignore.io/api/vim,sbt,macos,emacs,ensime,intellij,sublimetext,visualstudiocode
+#
+
+# ignore metals and bloop
+.metals/
+.bloop/
+

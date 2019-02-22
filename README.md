@@ -7,12 +7,12 @@ The following are required:
 
 Should also have plugins (scala, sbt, rainbow brackets, and scalafmt)
 
-0. Create a new private github repo named `myid-ip-mentoring-space` via [https://github.com/new](https://github.com/new).
+1. Create a new private github repo named `myid-ip-mentoring-space` via [https://github.com/new](https://github.com/new).
    
    Example: My private repository would be named `mmynsted-ip-mentoring-space`.
    Notice the url for this new private repo where it says quick setup.
 
-0. Create a bare repo and push it to the new.
+2. Create a bare repo and push it to the new.
 
 ```bash
 git clone --bare git@github.com:inner-product/ip-mentoring-space.git 
@@ -25,12 +25,12 @@ Find the URL for your private folk from the first step and populate it.
 git push --mirror git@github.com:mmynsted/mmynsted-ip-mentoring-space.git 
 ```
 
- 0. Remove the local `ip-mentoring-space` repo.
+3. Remove the local `ip-mentoring-space` repo.
  
- 0. Clone your new _private fork_ locally
+4. Clone your new _private fork_ locally
  
 ```bash
 git clone git@github.com:mmynsted/mmynsted-ip-mentoring-space.git
 ```
 
-0. _OPTIONAL_: Click on the settings tab of your private fork and add `mmynsted` as a collaborator.
+5. _OPTIONAL_: Click on the settings tab of your private fork and add `mmynsted` as a collaborator.

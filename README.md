@@ -34,3 +34,12 @@ git clone git@github.com:mmynsted/mmynsted-ip-mentoring-space.git
 ```
 
 5. _OPTIONAL_: Click on the settings tab of your private fork and add `mmynsted` as a collaborator.
+
+6. When importing or opening in Intellij, select to use [sbt shell](https://www.jetbrains.com/help/idea/sbt-support.html#sbt_shell). 
+   This project includes [Monix minitest](https://github.com/monix/minitest). The tests can be run from the 
+   sbt shell manually using the `test` command or on file save with `~test` or by executing an sbt task. 
+   
+   You can set one up by clicking `Edit configurations` from the `Run` menu. You can use the `sbt` template and make 
+   something that looks like this.
+   
+   ![sbt test task](./img/test-task.png)

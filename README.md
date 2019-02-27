@@ -3,7 +3,13 @@
 The following are required:
 
 - JDK 1.8
-- Ammonite
+- [Ammonite](https://ammonite.io)
+
+Install ammonite using [brew](https://brew.sh/) like the following or follow the instructions on the ammonite site.
+
+```sh
+brew info ammonite-repl
+```
 
 Should also have plugins (scala, sbt, rainbow brackets, and scalafmt)
 

@@ -66,3 +66,13 @@ You can execute tests using the `sbt shell`. Here are some examples.
 `testQuick` can also be limited by a glob. More detail can be found [here](https://www.scala-sbt.org/1.x/docs/Testing.html).
 
 There are additional things that Intellij can to simplify your build-test workflow. Please let me know what you find. 
+
+## Other
+
+If you use this repository as a remote source for updates you might consider adding the following to your local 
+`.git/info/exclude` after you get your project setup. It should prevent module conflicts. This is not recommended by 
+JetBrains. So consider it experimental.
+
+```git
+.idea/modules
+```

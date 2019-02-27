@@ -55,3 +55,5 @@ You can fetch the changes with:
 ```bash
 get fetch upstream
 ```
+
+See [use.md](./use.md) for more information.

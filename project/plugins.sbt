@@ -13,6 +13,8 @@
 //
 // https://scalacenter.github.io/scalafix/
 //
+// https://scalameta.org/scalafmt/
+//
 // A scala compiler plugin for more concise errors
 // This plugin removes some of the redundancy of the compiler output
 // and prints additional info for implicit resolution errors.
@@ -22,4 +24,5 @@ addSbtPlugin(dependency = "io.get-coursier"           % "sbt-coursier" % "1.0.3"
 addSbtPlugin(dependency = "com.timushev.sbt"          % "sbt-updates"  % "0.4.0")
 addSbtPlugin(dependency = "io.github.davidgregory084" % "sbt-tpolecat" % "0.1.5")
 addSbtPlugin(dependency = "ch.epfl.scala"             % "sbt-scalafix" % "0.9.4")
+addSbtPlugin(dependency = "com.geirsson"              % "sbt-scalafmt" % "1.5.1")
 addCompilerPlugin(dependency = "io.tryp" % "splain" % "0.4.0" cross CrossVersion.patch)

@@ -8,7 +8,7 @@ The following are required:
 Install ammonite using [brew](https://brew.sh/) like the following or follow the instructions on the ammonite site.
 
 ```sh
-brew info ammonite-repl
+brew install ammonite-repl
 ```
 
 Should also have plugins (scala, sbt, rainbow brackets, and scalafmt)

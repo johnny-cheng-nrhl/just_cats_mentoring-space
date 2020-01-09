@@ -9,7 +9,7 @@ lazy val root = (project in file(".")).
     inThisBuild(List(
       scalaVersion := "2.12.8"
     )),
-    name := "ip-mentoring-space",
+    name := "just-cats-mentoring-space",
     addCompilerPlugin(dependency = "org.spire-math" %% "kind-projector" % "0.9.9"),
     scalacOptions --= Seq("-Ywarn-unused:imports", "-Xfatal-warnings"),
     libraryDependencies ++= Seq(
